@@ -1,41 +1,104 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My Page</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,
-                                   initial-scale=1,
-                                   maxinum-scale=1.0,
-                                   user-scalable=1.0">
-    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <meta charset="utf-8"> 
+    <title>Bootstrap 实例 - 一个简单的网页</title>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">  
     <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="main.css">
 </head>
+
+
 <body>
-<div class ="container">
-    <div class="jumbotron">
-        <h1>志鹏之家</h1>
-        <p>这是志鹏的文章</p>
+<nav class="navbar navbar-transparent">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        
+        <span class="glyphicon glyphicon-edit"></span>
+        <span class="glyphicon glyphicon-comment"></span>  
+
+        <span class="glyphicon glyphicon-user"></span>
+        <span class="glyphicon glyphicon-log-in"></span>
+      </button>
+      <a class="navbar-brand" href="#">Ciper House</a>
     </div>
-    <div class="row">
-        <div class="col-sm-4">
-            <h3>我的第一篇文章</h3>
-            <p>学C语言《C Primer Plus》</p>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-picture"></span>Picture</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-edit"></span>Article</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-comment"></span>Comment</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span>Sign In</a></li> 
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Log In</a></li> 
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<h1 align="center">Ciper House</h1>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+        </br>
+        </br>
+        </br>
+        </br>
+        <img src="ciper.jpg" class="img-circle">
+        </br>
+        </br>
+        </br>
+        <ul class="nav nav-pills nav-stacked">
+            <li><a href="https://github.com/gaodaweimeng">GitHub</a></li>
+            <li><a href="https://www.zhihu.com/people/ciperchou/activities">ZhiHu</a></li>
+            <li><a href="https://www.baidu.com">Baidu</a></li>
+        </ul>
+        <hr class="hidden-sm hidden-md hidden-lg">
+    </div>
+
+    <div class="col-sm-8">
+        </br>
+        </br>
+        </br>
+        </br>
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <h3>我的第一篇文章</h3>
+                <br/>
+                <p>
+                行走在人生旅途，我们触摸的是多棱的生活，无须为艰难哀叹，为挫败悲语；不必为虚无动情，为沉沦失声。命运总有幸运与不幸，勿被顺境捆着了脚步，勿被厄运颓废了精神。其实，站得越高，你的阴影越长；越是暗夜，就越接近光明。只要不停地校正前行的方向，我们就不会迷失自己。
+                </p>
+            </div>
         </div>
-        <div class="col-sm-4">
-            <h3>我的第二篇文章</h3>
-            <p>学习Python语言</p>
-        </div>
-        <div class="col-sm-4">
-            <h3>我的第三篇文章</h3>
-            <p>学习Java语言</p>
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <h3>我的第二篇文章</h3>
+                <br/>
+                <p>
+                行走在人生旅途，我们触摸的是多棱的生活，无须为艰难哀叹，为挫败悲语；不必为虚无动情，为沉沦失声。命运总有幸运与不幸，勿被顺境捆着了脚步，勿被厄运颓废了精神。其实，站得越高，你的阴影越长；越是暗夜，就越接近光明。只要不停地校正前行的方向，我们就不会迷失自己。
+                </p>
+            </div>
         </div>
 
-        <div class="col-sm-4">
-        	<a href="https://www.baidu.com">百度搜索</a>
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <h3>我的第三篇文章</h3>
+                <br/>
+                <p>
+                行走在人生旅途，我们触摸的是多棱的生活，无须为艰难哀叹，为挫败悲语；不必为虚无动情，为沉沦失声。命运总有幸运与不幸，勿被顺境捆着了脚步，勿被厄运颓废了精神。其实，站得越高，你的阴影越长；越是暗夜，就越接近光明。只要不停地校正前行的方向，我们就不会迷失自己。
+                </p>
+            </div>
         </div>
     </div>
+  </div>
 </div>
+
+
 
 </body>
 </html>
