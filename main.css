@@ -1,0 +1,32 @@
+body {
+  background:url(background.jpg)  no-repeat center center;
+  background-size:cover;
+  background-attachment:fixed;
+  background-color:#CCCCCC;
+}
+
+nav.navbar-nav {
+  opacity:0.0;
+}
+
+nav.navbar-nav {
+  opacity: default;
+}
+
+div.navbar-header {
+  color: 66FFFF;
+  font-size: 25px;
+}
+
+a {
+  color: 66FFFF;
+  font-size: 20px;
+}
+
+image {
+  height: 100px;
+  width: 200px;
+  background: #aaa;
+}
+
+
